@@ -8,7 +8,7 @@
         public string? Nombre { get; set; }
         public string? Titulo { get; set; }
         public string? SubTitulo { get; set; }
-        public string? Categoria { get; set; } // para definir tipos de habitacion,plato,transporte
+        public int CategoriaId { get; set; }
         public string? Descripcion1 { get; set; }
         public string? Descripcion2 { get; set; }
         public string? Valor { get; set; }
