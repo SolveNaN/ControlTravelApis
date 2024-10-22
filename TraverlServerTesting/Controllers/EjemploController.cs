@@ -47,6 +47,64 @@ namespace ControWellServer.Controllers
             return Ok(lista);
         }
 
+        [HttpGet]
+        [Route("ListadoTipos")]
+        public async Task<ActionResult<List<string>>> GetTipos()
+        {
+            try
+            {
+                var clasificacion = new List<string>
+                {
+                    "Hoteles", "Restaurantes","Museos","Monumentos","Parques y Jardines","Playas y Zonas Costeras","Centros Culturales","Reservas Naturales y Parques Nacionales",
+                    "Centros de Esparcimiento y Entretenimiento","Sitios Religiosos","Parqueadero"
+                };
+                return Ok(clasificacion);
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Mala calidad");
+            }
+        }
+
+        [HttpGet]
+        [Route("CategoriaHotel")]
+        public async Task<ActionResult<List<string>>> GetCategoriaHotel()
+        {
+            try
+            {
+                var clasificacion = new List<string>
+                    {"Habitación Individual (Single Room)", "Habitación Doble (Double Room)", "Habitación Twin (Twin Room)", "Habitación Triple (Triple Room)",
+                    "Habitación Cuádruple (Quad Room)", "Suite", "Junior Suite", "Suite Presidencial", "Habitación Deluxe",
+                    "Habitación Ejecutiva", "Habitación Familiar", "Habitación de Conexión (Connecting Room)", "Habitación Accesible",
+                    "Habitación de Lujo (Luxury Room)", "Habitación con Vista (View Room)"};
+                return Ok(clasificacion);
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Mala calidad");
+            }
+        }
+        [HttpGet]
+        [Route("CategoriaRestaurante")]
+        public async Task<ActionResult<List<string>>> GetCategoriaRestaurante()
+        {
+            try
+            {
+                var clasificacion = new List<string>
+                    {"Entrantes (Appetizers)", "Sopas (Soups)", "Ensaladas (Salads)", "Platos Fuertes (Main Courses)", "Guarniciones (Side Dishes)", "Postres (Desserts)",
+                    "Bebidas (Beverages)", "Licores (Liquors)", "Bebidas Calientes (Hot Beverages)", "Bebidas Frías (Cold Beverages)", "Aperitivos (Snacks)", "Tapas (Small Plates)",
+                    "Mariscos (Seafood)", "Carnes (Meat Dishes)", "Pasta y Arroces (Pasta and Rice)",
+                    "Vegetarianos (Vegetarian Dishes)", "Veganos (Vegan Dishes)"};
+                return Ok(clasificacion);
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Mala calidad");
+            }
+        }
 
         [HttpGet]
         [Route("ConsutarId/{id}")]

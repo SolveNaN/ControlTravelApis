@@ -46,7 +46,106 @@ namespace TraverlServerTesting.Controllers
             var lista = await _context.Ejemplos.ToListAsync();
             return Ok(lista);
         }
+        //Aqui comienza el CRUD
+        [HttpGet("ListadoServicios")]
+        public async Task<ActionResult<List<Servicio>>> GetServicios()
+        {
+            var lista = new List<Servicio>()
+            {
+                new Servicio {
+                    Id = 1,
+                    Nombre="Atesanias La esquina",
+                    Descripcion1 ="Recuerdos para todos",
+                    UnidadId=1,
 
+                },
+                new Servicio {
+                    Id = 2,
+                    Nombre="Piezas arqueológicas",
+                    Descripcion1 =" Incluye urnas y vasijas con formas humanas y animales, así como trazos geométricos",
+                    UnidadId=7,
+                },
+                new Servicio {
+                    Id = 3,
+                    Nombre="Exposiciones permanentes",
+                    Descripcion1 ="Relatan la historia y cultura de la etnia indígena Guayupe",
+                    UnidadId=7,
+                },
+                new Servicio {
+                    Id = 4,
+                    Nombre="Recorridos guiados",
+                    Descripcion1 ="Ofrecen una visión detallada de las piezas y su contexto histórico",
+                    UnidadId=7,
+                },
+                new Servicio {
+                    Id = 5,
+                    Nombre="Sala de audiovisuales",
+                    Descripcion1 =" Presenta videos y presentaciones interactivas sobre la cultura Guayupe",
+                    UnidadId=7,
+                },
+                new Servicio {
+                    Id = 6,
+                    Nombre="Talleres educativos",
+                    Descripcion1 =" Actividades para niños y adultos que fomentan el aprendizaje sobre la historia local",
+                    UnidadId=7,
+                },
+                new Servicio {
+                    Id = 7,
+                    Nombre="Caño Cristales",
+                    Descripcion1 ="Conocido como el río de los cinco colores, ofrece vistas impresionantes con sus aguas multicolores",
+                    UnidadId=8,
+                },
+                new Servicio {
+                    Id = 8,
+                    Nombre="Senderismo",
+                    Descripcion1 ="Varias rutas de senderismo que permiten explorar la exuberante naturaleza del parque",
+                    UnidadId=8,
+                },
+                new Servicio {
+                    Id = 9,
+                    Nombre="Observación de aves",
+                    Descripcion1 ="Un paraíso para los observadores de aves, con una gran variedad de especies endémicas y migratorias",
+                    UnidadId=8,
+                },
+                new Servicio {
+                    Id = 10,
+                    Nombre="Cascadas y lagunas",
+                    Descripcion1 ="Diversas cascadas y lagunas que son perfectas para disfrutar de la naturaleza y tomar fotos",
+                    UnidadId=8,
+                },
+                new Servicio {
+                    Id = 11,
+                    Nombre="Ecoturismo",
+                    Descripcion1 =" Actividades como el baño pasivo y recreativo, interpretación del patrimonio arqueológico y fotografía de la flora y fauna",
+                    UnidadId=8,
+                },
+                new Servicio {
+                    Id = 12,
+                    Nombre="Habitación Doble",
+                    Descripcion1 ="Una habitación con una cama doble, ideal para parejas.",
+                    UnidadId=8,
+                },
+                new Servicio {
+                    Id = 13,
+                    Nombre="Habitación Triple",
+                    Descripcion1 ="Una habitación con una cama doble y una cama extra, perfecta para tres personas.",
+                    UnidadId=8,
+                },
+                new Servicio {
+                    Id = 14,
+                    Nombre="Habitación Familiar",
+                    Descripcion1 ="Una habitación más grande con una cama doble y una o más camas adicionales, adecuada para familias.",
+                    UnidadId=8,
+                },
+                new Servicio {
+                    Id = 15,
+                    Nombre="Suite Presidencial",
+                    Descripcion1 ="Una suite lujosa con mayores comodidades, incluyendo un área de estar y baño más grande.",
+                    UnidadId=8,
+                }
+            };
+            return Ok(lista);
+        }
 
         [HttpGet]
         [Route("ConsutarId/{id}")]
