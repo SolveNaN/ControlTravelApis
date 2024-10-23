@@ -56,7 +56,7 @@ namespace ControWellServer.Controllers
                 var clasificacion = new List<string>
                 {
                     "Hoteles", "Restaurantes","Museos","Monumentos","Parques y Jardines","Playas y Zonas Costeras","Centros Culturales","Reservas Naturales y Parques Nacionales",
-                    "Centros de Esparcimiento y Entretenimiento","Sitios Religiosos","Parqueadero"
+                    "Centros de Esparcimiento y Entretenimiento","Sitios Religiosos","Parqueadero", "Transporte","Clima"
                 };
                 return Ok(clasificacion);
 

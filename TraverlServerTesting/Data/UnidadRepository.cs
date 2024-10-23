@@ -12,15 +12,16 @@ namespace TraverlServerTesting.Data
                 Id = 1,
                 Titulo = "Restaurante La Costa",
                 Descripcion1 = "Deliciosos mariscos y un ambiente acogedor.",
-                UrlImg1 = "assets/images/restaurante-la-costa.jpg",
+                UrlImg1 = "https://emociom.com/img/ofertas/Principal/2023/05/3/12866_2023_may_17_11_26_51.jpg",
                 Tipo = "Restaurantes"
             },
             new Unidad
             {
                 Id = 2,
                 Titulo = "Hotel Boutique El Encanto",
+                Nombre ="Hotel Boutique El Encanto",
                 Descripcion1 = "Un hotel íntimo y acogedor con un toque de lujo y atención personalizada.",
-                UrlImg1 = "assets/images/hotel-boutique-el-encanto.jpg",
+                UrlImg1 = "https://destinoencanto.com/wp-content/uploads/2022/10/ATMOS-VISTA-ALTA-PISCINA.jpg",
                 Tipo = "Hoteles"
             },
             new Unidad
@@ -28,8 +29,8 @@ namespace TraverlServerTesting.Data
                     Id = 101,
         Titulo = "Parque Principal de Acacias",
         Descripcion1 = "Un lugar ideal para relajarse y disfrutar del entorno.",
-        UrlImg1 = "assets/images/parque-principal-acacias.jpg",
-        Tipo = "Parque"
+        UrlImg1 = "https://upload.wikimedia.org/wikipedia/commons/2/25/Plaza_in_center_of_Acac%C3%ADas.jpg",
+        Tipo = "Parques y Jardines"
     },
     new Unidad
     {
@@ -107,8 +108,9 @@ namespace TraverlServerTesting.Data
     {
         Id = 111,
         Titulo = "Gran Hotel Acacias",
+        Nombre="Gran Hotel Acacias",
         Descripcion1 = "Este hotel ofrece habitaciones cómodas con baño privado, TV satelital, aire acondicionado, escritorio y snacks. También cuenta con Wi-Fi en las habitaciones y áreas comunes",
-        UrlImg1 = "assets/images/ruta-turistica-meta.jpg",
+        UrlImg1 = "https://livingandtravel.com.mx/wp-content/uploads/2018/02/Hotel-Boutique-Casa-Lisa-2-1.jpg",
         Tipo = "Hoteles"
     },
     new Unidad
