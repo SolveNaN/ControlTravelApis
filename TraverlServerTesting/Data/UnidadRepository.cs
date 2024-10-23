@@ -110,6 +110,30 @@ namespace TraverlServerTesting.Data
         Descripcion1 = "Este hotel ofrece habitaciones cómodas con baño privado, TV satelital, aire acondicionado, escritorio y snacks. También cuenta con Wi-Fi en las habitaciones y áreas comunes",
         UrlImg1 = "assets/images/ruta-turistica-meta.jpg",
         Tipo = "Hoteles"
+    },
+    new Unidad
+    {
+        Id=112,
+        Titulo="Hotel Puert del Sol",
+        SubTitulo="Subtitulo",
+        Descripcion1= "Descripion detallada del hotel",
+        Descripcion2 = "descripcion 2",
+        Ubicacion=" Calle Ejemplo 123, Ciudad, País",
+        UrlImg1 = "https://th.bing.com/th/id/OIP.aQopAu_bz2EZIrcTl2xuWwAAAA?rs=1&pid=ImgDetMain",
+        Nombre = "Nombre del hotel",
+        Correo = "info@hotelpuertdelsol.com",
+        Telefono = "+57 322 783 3578"
+    },
+    new Unidad
+    {
+        Id=112,
+        Nombre="Restaurante Familiar Amparo",
+        Descripcion1="Ofrecen una variedad de comida casera",
+        Ubicacion="Calle 12, 16-85, Acacias, Meta",
+        UrlImg1="https://grupopampas.com.mx/wp-content/uploads/elementor/thumbs/Restaurante-Familiar-pfj4qur2i53mj7iebez44rox3t4p91c2gdfihvlq5c.png",
+        UrlImg2="https://www.seniorlivingguide.com/wp-content/uploads/2020/08/Oakmont-of-Segovia-Photo-Gallery.005.jpeg",
+        UrlImg3="https://s3-eu-west-1.amazonaws.com/elmenusv5-stg/Normal/f942ab4d-a3a8-11e8-b2ca-0242ac110002.jpg",
+        Tipo="Restaurantes"
     }
         };
 

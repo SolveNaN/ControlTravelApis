@@ -178,7 +178,60 @@ namespace TraverlServerTesting.Data
                     Nombre="Suite Presidencial",
                     Descripcion1 ="Una suite lujosa con mayores comodidades, incluyendo un área de estar y baño más grande.",
                     UnidadId=108,
-                }
+                },
+
+                new Servicio {
+                    Id=116,
+            Nombre="Portal del sol",
+            Titulo="Habitacion 1 ",
+            SubTitulo="Habitación Estándar",
+            Descripcion1="La Habitación Estándar ofrece un ambiente acogedor y funcional. Equipadas con una cama matrimonial o dos camas individuales, estas habitaciones son ideales para viajeros solos o en pareja.",
+            Descripcion2="Disponen de un escritorio de trabajo, televisión de pantalla plana y baño privado con artículos de tocador. La decoración es moderna y minimalista, creando un espacio perfecto para descansar después de un día de exploración.",
+            UrlImg1 = "https://www.sofitelbarucalablanca.com/wp-content/uploads/sites/19/2023/04/DUF_8644-v-ok-1170x780.jpg",
+            UrlImg2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQx3zfiM5DnlrdwBBfChNElnjFiv9aL5Yy9fVrkpSL6MVLT1moZGoFzdyDquP7Rmy2QwE&usqp=CAU",
+            UrlImg3 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMs3LrlUpZAv2XdgDHxNGyANOhJ9H-xm99wledrq7STBxqxyJ1qesuyERD27qMo6DuWKs&usqp=CAU",
+            Valor="450",
+            UnidadId=112
+                },
+                new Servicio {
+                    Id=117,           
+            Nombre="Portal del sol",
+            Titulo="Habitacion 1 ",
+            SubTitulo="Habitación Estándar",
+            Descripcion1="La Habitación Estándar ofrece un ambiente acogedor y funcional. Equipadas con una cama matrimonial o dos camas individuales, estas habitaciones son ideales para viajeros solos o en pareja.",
+            Descripcion2="Disponen de un escritorio de trabajo, televisión de pantalla plana y baño privado con artículos de tocador. La decoración es moderna y minimalista, creando un espacio perfecto para descansar después de un día de exploración.",
+            UrlImg1 = "https://th.bing.com/th?id=OIP.wJLz7YmzEq7__L9ccwr_WQHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2",
+            UrlImg3 = "https://www.sofitelbarucalablanca.com/wp-content/uploads/sites/19/2023/04/DUF_8644-v-ok-1170x780.jpg",
+            UrlImg2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQx3zfiM5DnlrdwBBfChNElnjFiv9aL5Yy9fVrkpSL6MVLT1moZGoFzdyDquP7Rmy2QwE&usqp=CAU",
+            Valor="350",
+            UnidadId=112
+                },
+                new Servicio {
+                    Id=118,
+            Nombre="Portal del sol",
+            Titulo="Habitacion 1 ",
+            SubTitulo="Habitación Estándar",
+            Descripcion1="La Habitación Estándar ofrece un ambiente acogedor y funcional. Equipadas con una cama matrimonial o dos camas individuales, estas habitaciones son ideales para viajeros solos o en pareja.",
+            Descripcion2="Disponen de un escritorio de trabajo, televisión de pantalla plana y baño privado con artículos de tocador. La decoración es moderna y minimalista, creando un espacio perfecto para descansar después de un día de exploración.",
+            UrlImg1 = "https://th.bing.com/th?id=OIP.2Jf2sAwUUePiMobe-BBJMAHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2",
+            UrlImg3 = "https://www.sofitelbarucalablanca.com/wp-content/uploads/sites/19/2023/04/DUF_8644-v-ok-1170x780.jpg",
+            UrlImg2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQx3zfiM5DnlrdwBBfChNElnjFiv9aL5Yy9fVrkpSL6MVLT1moZGoFzdyDquP7Rmy2QwE&usqp=CAU",
+            Valor="450",
+            UnidadId=112
+                },
+                 new Servicio {
+                    Id=118,
+            Titulo="Habitacion 4 ",
+             Nombre="Portal del sol",
+            SubTitulo="Habitación Estándar",
+            Descripcion1="La Habitación Estándar ofrece un ambiente acogedor y funcional. Equipadas con una cama matrimonial o dos camas individuales, estas habitaciones son ideales para viajeros solos o en pareja.",
+            Descripcion2="Disponen de un escritorio de trabajo, televisión de pantalla plana y baño privado con artículos de tocador. La decoración es moderna y minimalista, creando un espacio perfecto para descansar después de un día de exploración.",
+            UrlImg1 = "https://th.bing.com/th?id=OIP.nfepFd1KATgmLo93pip8yQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2",
+            UrlImg3 = "https://www.sofitelbarucalablanca.com/wp-content/uploads/sites/19/2023/04/DUF_8644-v-ok-1170x780.jpg",
+            UrlImg2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQx3zfiM5DnlrdwBBfChNElnjFiv9aL5Yy9fVrkpSL6MVLT1moZGoFzdyDquP7Rmy2QwE&usqp=CAU",
+            Valor="550",
+            UnidadId=112
+                },
 
     };
 
