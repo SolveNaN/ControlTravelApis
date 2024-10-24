@@ -10,18 +10,44 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 1,
-                Titulo = "Restaurante La Costa",
+                Nombre = "Restaurante La Costa",
                 Descripcion1 = "Deliciosos mariscos y un ambiente acogedor.",
                 UrlImg1 = "https://emociom.com/img/ofertas/Principal/2023/05/3/12866_2023_may_17_11_26_51.jpg",
+                UrlImg2 = "https://aloalobahia.com/images/p/orirestauranos_aloalobahia.jpg",
+                UrlImg3 = "https://i.pinimg.com/originals/4b/cc/c0/4bccc084ec818a058b7a304093c4a28c.jpg",
                 Tipo = "Restaurantes"
             },
             new Unidad
             {
                 Id = 2,
+                Nombre = "Paz Cucina con Amore",
+                Descripcion1 = "Un restaurante italiano en Villavicencio que ofrece una experiencia gastronómica única",
+                UrlImg1 = "https://asset1.zankyou.com/images/wervice-card-big/7e4/bcd4/1050/800/w/874316/-/1642884238.jpg",
+                UrlImg2 = "https://elranking.mx/wp-content/uploads/2022/04/restaurantes-La-Paz-Puebla.png",
+                UrlImg3 = "https://cdn.lovesavingsgroup.com/logos/cucina-amore.png",
+                Tipo = "Restaurantes"
+            },
+            new Unidad
+            {
+                Id = 4,
+                Nombre = "Asadero El Amarradero del Mico",
+                Descripcion1 = "n lugar ideal para disfrutar de churrascos y comida latina en Villavicencio",
+                UrlImg1 = "https://asset1.zankyou.com/images/wervice-card-big/7e4/bcd4/1050/800/w/874316/-/1642884238.jpg",
+                UrlImg2 = "https://elranking.mx/wp-content/uploads/2022/04/restaurantes-La-Paz-Puebla.png",
+                UrlImg3 = "https://cdn.lovesavingsgroup.com/logos/cucina-amore.png",
+                Tipo = "Restaurantes"
+            },
+
+
+            new Unidad
+            {
+                Id = 5,
                 Titulo = "Hotel Boutique El Encanto",
                 Nombre ="Hotel Boutique El Encanto",
                 Descripcion1 = "Un hotel íntimo y acogedor con un toque de lujo y atención personalizada.",
                 UrlImg1 = "https://destinoencanto.com/wp-content/uploads/2022/10/ATMOS-VISTA-ALTA-PISCINA.jpg",
+                UrlImg2 = "https://cdn0.bodas.com.mx/vendor/3321/3_2/960/jpg/img-20170906-wa0056_5_173321_v1.jpeg",
+                UrlImg3 = "https://cdn0.bodas.com.mx/vendor/3321/3_2/960/jpg/img-20170906-wa0056_5_173321_v1.jpeg",
                 Tipo = "Hoteles"
             },
             new Unidad
@@ -106,25 +132,28 @@ namespace TraverlServerTesting.Data
     },
     new Unidad
     {
-        Id = 111,
-        Titulo = "Gran Hotel Acacias",
+        Id = 111,       
         Nombre="Gran Hotel Acacias",
         Descripcion1 = "Este hotel ofrece habitaciones cómodas con baño privado, TV satelital, aire acondicionado, escritorio y snacks. También cuenta con Wi-Fi en las habitaciones y áreas comunes",
         UrlImg1 = "https://livingandtravel.com.mx/wp-content/uploads/2018/02/Hotel-Boutique-Casa-Lisa-2-1.jpg",
+        UrlImg2 = "https://media-cdn.tripadvisor.com/media/photo-s/06/41/c6/2c/hotel-rosa-da-ilha.jpg",
+        UrlImg3 = "https://www.ferias.tur.br/thumbnailcli/11568/900/500/g_333.jpg",
         Tipo = "Hoteles"
     },
     new Unidad
     {
         Id=112,
-        Titulo="Hotel Puert del Sol",
+        Nombre="Hotel Puert del Sol",
         SubTitulo="Subtitulo",
         Descripcion1= "Descripion detallada del hotel",
         Descripcion2 = "descripcion 2",
         Ubicacion=" Calle Ejemplo 123, Ciudad, País",
-        UrlImg1 = "https://th.bing.com/th/id/OIP.aQopAu_bz2EZIrcTl2xuWwAAAA?rs=1&pid=ImgDetMain",
-        Nombre = "Nombre del hotel",
+        UrlImg1 = "https://media-cdn.tripadvisor.com/media/vr-splice-j/06/19/c0/e5.jpg",        
+        UrlImg2 = "https://media-cdn.tripadvisor.com/media/photo-s/08/f7/42/d9/pool.jpg",        
+        UrlImg3 = "https://media-cdn.tripadvisor.com/media/photo-s/08/d3/5b/c9/hotel-maya-tulipanes.jpg",        
         Correo = "info@hotelpuertdelsol.com",
-        Telefono = "+57 322 783 3578"
+        Telefono = "+57 322 783 3578",
+         Tipo = "Hoteles"
     },
     new Unidad
     {
