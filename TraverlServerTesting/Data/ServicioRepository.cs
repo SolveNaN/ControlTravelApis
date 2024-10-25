@@ -182,7 +182,7 @@ namespace TraverlServerTesting.Data
 
                 new Servicio {
                     Id=116,
-            Nombre="Portal del sol",
+            Nombre="Habitación Estándar",
             Titulo="Habitacion 1 ",
             SubTitulo="Habitación Estándar",
             Descripcion1="La Habitación Estándar ofrece un ambiente acogedor y funcional. Equipadas con una cama matrimonial o dos camas individuales, estas habitaciones son ideales para viajeros solos o en pareja.",
@@ -193,46 +193,20 @@ namespace TraverlServerTesting.Data
             Valor="450",
             UnidadId=112
                 },
+
                 new Servicio {
-                    Id=117,           
-            Nombre="Portal del sol",
-            Titulo="Habitacion 1 ",
+                    Id=116,
+            Nombre="Habitacion Familiar",
+            Titulo="Habitacion Familiar ",
             SubTitulo="Habitación Estándar",
             Descripcion1="La Habitación Estándar ofrece un ambiente acogedor y funcional. Equipadas con una cama matrimonial o dos camas individuales, estas habitaciones son ideales para viajeros solos o en pareja.",
             Descripcion2="Disponen de un escritorio de trabajo, televisión de pantalla plana y baño privado con artículos de tocador. La decoración es moderna y minimalista, creando un espacio perfecto para descansar después de un día de exploración.",
-            UrlImg1 = "https://th.bing.com/th?id=OIP.wJLz7YmzEq7__L9ccwr_WQHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2",
-            UrlImg3 = "https://www.sofitelbarucalablanca.com/wp-content/uploads/sites/19/2023/04/DUF_8644-v-ok-1170x780.jpg",
-            UrlImg2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQx3zfiM5DnlrdwBBfChNElnjFiv9aL5Yy9fVrkpSL6MVLT1moZGoFzdyDquP7Rmy2QwE&usqp=CAU",
-            Valor="350",
-            UnidadId=112
-                },
-                new Servicio {
-                    Id=118,
-            Nombre="Portal del sol",
-            Titulo="Habitacion 1 ",
-            SubTitulo="Habitación Estándar",
-            Descripcion1="La Habitación Estándar ofrece un ambiente acogedor y funcional. Equipadas con una cama matrimonial o dos camas individuales, estas habitaciones son ideales para viajeros solos o en pareja.",
-            Descripcion2="Disponen de un escritorio de trabajo, televisión de pantalla plana y baño privado con artículos de tocador. La decoración es moderna y minimalista, creando un espacio perfecto para descansar después de un día de exploración.",
-            UrlImg1 = "https://th.bing.com/th?id=OIP.2Jf2sAwUUePiMobe-BBJMAHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2",
-            UrlImg3 = "https://www.sofitelbarucalablanca.com/wp-content/uploads/sites/19/2023/04/DUF_8644-v-ok-1170x780.jpg",
-            UrlImg2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQx3zfiM5DnlrdwBBfChNElnjFiv9aL5Yy9fVrkpSL6MVLT1moZGoFzdyDquP7Rmy2QwE&usqp=CAU",
+            UrlImg1 = "https://www.servicedapartments.co.in/image/serviced-apartments-dubai/dhs013-1-bedroom-apartment-with-pool-downtown/8.jpg",
+            UrlImg2 = "https://stat.ameba.jp/user_images/20190721/14/ochie1/7f/52/j/o3264183614508633128.jpg",
+            UrlImg3 = "https://i.travelapi.com/lodging/9000000/8830000/8828700/8828677/a28243bb_z.jpg",
             Valor="450",
             UnidadId=112
                 },
-                 new Servicio {
-                    Id=118,
-            Titulo="Habitacion 4 ",
-             Nombre="Portal del sol",
-            SubTitulo="Habitación Estándar",
-            Descripcion1="La Habitación Estándar ofrece un ambiente acogedor y funcional. Equipadas con una cama matrimonial o dos camas individuales, estas habitaciones son ideales para viajeros solos o en pareja.",
-            Descripcion2="Disponen de un escritorio de trabajo, televisión de pantalla plana y baño privado con artículos de tocador. La decoración es moderna y minimalista, creando un espacio perfecto para descansar después de un día de exploración.",
-            UrlImg1 = "https://th.bing.com/th?id=OIP.nfepFd1KATgmLo93pip8yQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2",
-            UrlImg3 = "https://www.sofitelbarucalablanca.com/wp-content/uploads/sites/19/2023/04/DUF_8644-v-ok-1170x780.jpg",
-            UrlImg2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQx3zfiM5DnlrdwBBfChNElnjFiv9aL5Yy9fVrkpSL6MVLT1moZGoFzdyDquP7Rmy2QwE&usqp=CAU",
-            Valor="550",
-            UnidadId=112
-                },
-
     };
 
         // Obtener todos los servicios

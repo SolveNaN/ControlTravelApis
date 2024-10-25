@@ -15,7 +15,9 @@ namespace TraverlServerTesting.Data
                 UrlImg1 = "https://emociom.com/img/ofertas/Principal/2023/05/3/12866_2023_may_17_11_26_51.jpg",
                 UrlImg2 = "https://aloalobahia.com/images/p/orirestauranos_aloalobahia.jpg",
                 UrlImg3 = "https://i.pinimg.com/originals/4b/cc/c0/4bccc084ec818a058b7a304093c4a28c.jpg",
-                Tipo = "Restaurantes"
+                Tipo = "Restaurantes",
+                Costo="Ver",
+                LinkFacebook="/lugar/"
             },
             new Unidad
             {
@@ -25,7 +27,8 @@ namespace TraverlServerTesting.Data
                 UrlImg1 = "https://asset1.zankyou.com/images/wervice-card-big/7e4/bcd4/1050/800/w/874316/-/1642884238.jpg",
                 UrlImg2 = "https://elranking.mx/wp-content/uploads/2022/04/restaurantes-La-Paz-Puebla.png",
                 UrlImg3 = "https://cdn.lovesavingsgroup.com/logos/cucina-amore.png",
-                Tipo = "Restaurantes"
+                Tipo = "Restaurantes",
+                Costo="Ver"
             },
             new Unidad
             {
@@ -37,8 +40,6 @@ namespace TraverlServerTesting.Data
                 UrlImg3 = "https://cdn.lovesavingsgroup.com/logos/cucina-amore.png",
                 Tipo = "Restaurantes"
             },
-
-
             new Unidad
             {
                 Id = 5,
@@ -48,7 +49,8 @@ namespace TraverlServerTesting.Data
                 UrlImg1 = "https://destinoencanto.com/wp-content/uploads/2022/10/ATMOS-VISTA-ALTA-PISCINA.jpg",
                 UrlImg2 = "https://cdn0.bodas.com.mx/vendor/3321/3_2/960/jpg/img-20170906-wa0056_5_173321_v1.jpeg",
                 UrlImg3 = "https://cdn0.bodas.com.mx/vendor/3321/3_2/960/jpg/img-20170906-wa0056_5_173321_v1.jpeg",
-                Tipo = "Hoteles"
+                Tipo = "Hoteles",
+                Costo="Ver Mas"
             },
             new Unidad
     {
@@ -138,12 +140,13 @@ namespace TraverlServerTesting.Data
         UrlImg1 = "https://livingandtravel.com.mx/wp-content/uploads/2018/02/Hotel-Boutique-Casa-Lisa-2-1.jpg",
         UrlImg2 = "https://media-cdn.tripadvisor.com/media/photo-s/06/41/c6/2c/hotel-rosa-da-ilha.jpg",
         UrlImg3 = "https://www.ferias.tur.br/thumbnailcli/11568/900/500/g_333.jpg",
-        Tipo = "Hoteles"
+        Tipo = "Hoteles",
+        Costo="Ver Mas"
     },
     new Unidad
     {
         Id=112,
-        Nombre="Hotel Puert del Sol",
+        Nombre="Hotel Puerta del Sol",
         SubTitulo="Subtitulo",
         Descripcion1= "Descripion detallada del hotel",
         Descripcion2 = "descripcion 2",
@@ -153,11 +156,13 @@ namespace TraverlServerTesting.Data
         UrlImg3 = "https://media-cdn.tripadvisor.com/media/photo-s/08/d3/5b/c9/hotel-maya-tulipanes.jpg",        
         Correo = "info@hotelpuertdelsol.com",
         Telefono = "+57 322 783 3578",
-         Tipo = "Hoteles"
+         Tipo = "Hoteles",
+          LinkFacebook="/lugar/",
+          Costo="Ver Mas"
     },
     new Unidad
     {
-        Id=112,
+        Id=113,
         Nombre="Restaurante Familiar Amparo",
         Descripcion1="Ofrecen una variedad de comida casera",
         Ubicacion="Calle 12, 16-85, Acacias, Meta",
