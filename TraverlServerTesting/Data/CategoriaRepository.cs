@@ -53,7 +53,24 @@ namespace TraverlServerTesting.Data
                 Nombre = "Servicio de Spa",
                 Tipo = "Bienestar",
                 UrlImg1 = "assets/images/hotel-boutique-el-encanto-spa.jpg"
-            }
+            },
+            new Categoria
+            {
+                Id = 500,
+                UnidadId = 503,
+                Nombre = "Canchas Sintéticas",
+                Tipo = "Instalaciones",
+                UrlImg1 = "centro-deportivo-el-reino-canchas.jpg"
+            },
+            new Categoria
+            {
+                Id = 501,
+                UnidadId = 503,
+                Nombre = "Bar y Área de Descanso",
+                Tipo = "Servicios",
+                UrlImg1 = "centro-deportivo-el-reino-bar.jpg"
+            },
+
 
 
 
