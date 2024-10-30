@@ -336,6 +336,23 @@ namespace TraverlServerTesting.Data
 
 
 
+            // Centros_Culturales (800 - 899)
+            new Unidad
+            {
+                Id = 801,
+                Titulo = "Resguardo Indígena Maguare",
+                Descripcion1 = "",
+                UrlImg1 = "https://plazacapital.co/images/contenidos/Maloca.png",
+                UrlImg2 = "https://plazacapital.co/media/k2/items/cache/a2e1c2d21129c22da8981a4c7bfdede0_XL.jpg?t=1730302375",
+                UrlImg3 = "https://static.wixstatic.com/media/a7501f_6183585b841045638abe64f6013140c6~mv2.jpg/v1/fill/w_750,h_500,al_c,q_90/a7501f_6183585b841045638abe64f6013140c6~mv2.jpg",
+                Ubicacion = "Unnamed Road, Villavicencio, Meta",
+                Tipo = "Centros_Culturales",
+                LinkFacebook="/lugar/",
+                Costo="Ver Mas"
+            },
+
+
+
             //Otros
             new Unidad
             {

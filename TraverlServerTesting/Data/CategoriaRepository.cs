@@ -99,6 +99,31 @@ namespace TraverlServerTesting.Data
 
 
 
+            // Centros_Culturales (800 - 899)
+            new Categoria
+            {
+                Id = 800,
+                UnidadId = 801,
+                Nombre = "Arte y Cultura Indígena",
+                Tipo = "Cultural",
+                Descripcion1 = "Exposiciones de arte tradicional, rituales y talleres de artesanía para conocer la cultura indígena Maguare.",
+                UrlImg1 = "https://cultura.gov.py/wp-content/uploads/2012/03/Madre-Cuzque%C3%B1a.-Juan-de-la-Cruz-Machicado.jpg",
+                UrlImg2 = "https://i0.wp.com/ladiligencialibros.com/wp-content/uploads/2022/04/Algunas-paginas-interiores_Boca-de-maguare-1-min.jpg?fit=900%2C900&ssl=1",
+                UrlImg3 = "https://maguared.gov.co/wp-content/uploads/2016/07/maritza_diaz3.jpg"
+            },
+            new Categoria
+            {
+                Id = 801,
+                UnidadId = 801,
+                Nombre = "Naturaleza y Espiritualidad",
+                Tipo = "Turismo",
+                Descripcion1 = "Actividades al aire libre y ceremonias espirituales en conexión con la naturaleza.",
+                UrlImg1 = "https://miputumayo.com.co/wp-content/uploads/2014/11/IMAGEN-14811002-2.png-1.jpg",
+                UrlImg2 = "https://freight.cargo.site/t/original/i/25469a497f0cbf5a12f4e9997efbe639b6943bec5b12faaabe6c7d3117596ecc/Poster-2de066bf2f-poster.jpg",
+                UrlImg3 = "https://freight.cargo.site/t/original/i/1ad98a6080e7ecda9cf729355c5a4f0cc62728cf6d52dc68dae0611d18909d80/Photo-1-Yuri_still_1.jpg"
+            },
+
+
 
         };
 

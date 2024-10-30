@@ -231,6 +231,58 @@ namespace TraverlServerTesting.Data
 
 
 
+            // Centros_Culturales (800 - 899)
+            new Servicio
+            {
+                Id = 800,
+                UnidadId = 801,
+                CategoriaId = 800,
+                Nombre = "Visitas Guiadas",
+                Descripcion1 = "Tours guiados que exploran la historia, cultura y tradiciones del resguardo Maguare.",
+                UrlImg1 = "https://manguaregira.wordpress.com/wp-content/uploads/2012/07/img_1443.jpg?w=300&h=200",
+                UrlImg2 = "https://static.wixstatic.com/media/a7501f_f30fdbe219f248238db793d16856df49~mv2.jpg/v1/fill/w_750,h_500,al_c,q_90/a7501f_f30fdbe219f248238db793d16856df49~mv2.jpg",
+                UrlImg3 = "https://i0.wp.com/elcuartomosquetero.com/wp-content/uploads/2020/10/IMG_4206-2.jpg?resize=696%2C738&ssl=1",
+                Valor = "Ver Mas"
+            },
+            new Servicio
+            {
+                Id = 801,
+                UnidadId = 801,
+                CategoriaId = 800,
+                Nombre = "Talleres de Artesanía",
+                Descripcion1 = "Talleres para aprender técnicas de artesanía tradicional, como tejido y cerámica.",
+                UrlImg1 = "https://vanidad.es/images/carpeta_relacionados/2019/09/11/150826_artesania_portada.jpg",
+                UrlImg2 = "https://www.en-otavalo.com/wp-content/uploads/2023/10/TallerPeguche-1024x734.webp",
+                UrlImg3 = "https://artesaniasdecolombia.com.co/Documentos/Contenido/9305_taller-ceramica-rosa-maria-jerez-artesanias-colombia-2013.jpg",
+                Valor = "Ver Mas"
+            },
+            new Servicio
+            {
+                Id = 802,
+                UnidadId = 801,
+                CategoriaId = 801,
+                Nombre = "Ceremonias Espirituales",
+                Descripcion1 = "Ceremonias guiadas por líderes indígenas para conectarse con la naturaleza y el espíritu.",
+                UrlImg1 = "https://villavicencio.gov.co/wp-content/uploads/2021/05/22.png",
+                UrlImg2 = "https://freight.cargo.site/t/original/i/ddc844af9f19fa848fb95a6eaec7232eee4cb9ed29e6662a04a42a96375bbd55/Corto-documental-El-canto-del-maguare.-Palabra-de-consejo-de-Dujdulli_1_FotoAgendaPropia.jpeg",
+                UrlImg3 = "https://www.lifeder.com/wp-content/uploads/2017/10/Bestknate-danza-baile-indigena.jpg",
+                Valor = "Ver Mas"
+            },
+            new Servicio
+            {
+                Id = 803,
+                UnidadId = 801,
+                CategoriaId = 801,
+                Nombre = "Senderismo por la Reserva",
+                Descripcion1 = "Recorridos guiados por la reserva para descubrir la flora y fauna local.",
+                UrlImg1 = "https://static.wixstatic.com/media/51f90f_0f7d4171eb834293b19a34520184a95d~mv2.jpg/v1/fill/w_2500,h_1666,al_c/51f90f_0f7d4171eb834293b19a34520184a95d~mv2.jpg",
+                UrlImg2 = "https://www.fucsia.co/resizer/v2/OKISJA752JG7BA6NGKWVF3PFKQ.jpeg?auth=f30ac1f92d3996be89fbe95c2b44c4b9db00cb2fbedcbb2622693a02f6caa8d4&smart=true&quality=75&width=1920&height=1080",
+                UrlImg3 = "https://travelgrafia.co/wp-content/uploads/2021/12/Top-Mejores-trekking-Colombia.jpg",
+                Valor = "Ver Mas"
+            },
+
+
+
             // Servicios para la unidad 2 (Hotel Boutique El Encanto)
             new Servicio
             {
