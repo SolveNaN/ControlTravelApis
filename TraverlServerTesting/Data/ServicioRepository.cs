@@ -179,6 +179,58 @@ namespace TraverlServerTesting.Data
 
 
 
+            // Playas (700 - 799)
+            new Servicio
+            {
+                Id = 700,
+                UnidadId = 700,
+                CategoriaId = 700,
+                Nombre = "Alquiler de Kayaks",
+                Descripcion1 = "Alquiler de kayaks para explorar las aguas de Playa Merecure.",
+                UrlImg1 = "https://corticata.com/wp-content/uploads/2022/09/alquiler-kayak-1.jpg",
+                UrlImg2 = "https://alua.es/wp-content/uploads/2022/09/Kayak-Alquiler.webp",
+                UrlImg3 = "https://kayakelpajar.com/wp-content/uploads/2021/04/2.jpg",
+                Valor = "Ver Mas"
+            },
+            new Servicio
+            {
+                Id = 701,
+                UnidadId = 700,
+                CategoriaId = 700,
+                Nombre = "Paddleboarding",
+                Descripcion1 = "Equipo disponible para practicar paddleboarding en el mar.",
+                UrlImg1 = "https://suplovers.co/_astro/punte-piedra-card.9mkr-KMp_Z20SSGU.webp",
+                UrlImg2 = "https://suplovers.co/_astro/boards-1.B2Mur7Cj_Zv7vJM.webp",
+                UrlImg3 = "https://kayaksupilhagrande.com/wp-content/uploads/2021/04/IMG_20210123_083353-scaled.jpg",
+                Valor = "Ver Mas"
+            },
+            new Servicio
+            {
+                Id = 702,
+                UnidadId = 700,
+                CategoriaId = 701,
+                Nombre = "Masajes frente al mar",
+                Descripcion1 = "Servicio de masajes en la playa para una experiencia de bienestar única.",
+                UrlImg1 = "https://media-cdn.tripadvisor.com/media/photo-s/0d/7a/1d/98/relajate-con-un-espectacular.jpg",
+                UrlImg2 = "https://media-cdn.tripadvisor.com/media/photo-s/04/6e/ee/c4/cocoplum-beach-hotel.jpg",
+                UrlImg3 = "https://i.blogs.es/ce21f2/masaje-20playa/1366_2000.jpg",
+                Valor = "Ver Mas"
+            },
+            new Servicio
+            {
+                Id = 703,
+                UnidadId = 700,
+                CategoriaId = 701,
+                Nombre = "Zonas de Picnic",
+                Descripcion1 = "Áreas para picnic en la playa, perfectas para disfrutar de una comida al aire libre.",
+                UrlImg1 = "https://cdn0.matrimonio.com.co/vendor/7202/3_2/960/jpeg/picnic-colombia-3_10_147202-162755655476565.jpeg",
+                UrlImg2 = "https://rollingplayas.com/wp-content/uploads/2022/08/picnic4.jpg",
+                UrlImg3 = "https://cdn0.matrimonio.com.co/vendor/5638/3_2/960/jpg/file-1717778969863_10_175638-171777897158816.jpeg",
+                Valor = "Ver Mas"
+            },
+
+
+
             // Servicios para la unidad 2 (Hotel Boutique El Encanto)
             new Servicio
             {
