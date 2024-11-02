@@ -338,6 +338,7 @@ namespace TraverlServerTesting.Data
                 Nombre = "Playa merecure",
                 Descripcion1 = "Playa Merecure es un lugar paradisíaco de arena blanca y aguas cristalinas, ideal para disfrutar del sol y relajarse en un entorno natural tranquilo.",
                 UrlImg1 = "",
+                UrlImg1 = "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/01/f5/15/merecure.jpg?w=1200&h=-1&s=1",
                 UrlImg2 = "https://images.evisos.com.co/2009/06/24/merecure-parque-agroecologico-plan-pasadia_85fb04fd6_3.jpg",
                 UrlImg3 = "https://media-cdn.tripadvisor.com/media/photo-s/07/27/ba/18/playa.jpg",
                 Ubicacion = "3Q8J+MX, La Porfia, Villavicencio, Meta",
