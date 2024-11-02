@@ -14,7 +14,6 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 0,
-                Titulo = "Hotel Boutique El Encanto",
                 Nombre ="Hotel Boutique El Encanto",
                 Descripcion1 = "Un hotel íntimo y acogedor con un toque de lujo y atención personalizada.",
                 UrlImg1 = "https://destinoencanto.com/wp-content/uploads/2022/10/ATMOS-VISTA-ALTA-PISCINA.jpg",
@@ -40,7 +39,6 @@ namespace TraverlServerTesting.Data
             {
                 Id = 2,
                 Nombre = "Hotel Puerta del Sol",
-                SubTitulo = "Subtitulo",
                 Descripcion1= "Descripion detallada del hotel",
                 Descripcion2 = "descripcion 2",
                 Ubicacion=" Calle Ejemplo 123, Ciudad, País",
@@ -251,7 +249,7 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 400,
-                Titulo = "Parque Principal de Acacias",
+                Nombre = "Parque Principal de Acacias",
                 Descripcion1 = "Un lugar ideal para relajarse y disfrutar del entorno.",
                 UrlImg1 = "https://upload.wikimedia.org/wikipedia/commons/2/25/Plaza_in_center_of_Acac%C3%ADas.jpg",
                 UrlImg2 = "https://media-cdn.tripadvisor.com/media/photo-s/05/3c/b0/be/acacias.jpg",
@@ -264,7 +262,7 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 401,
-                Titulo = "Parque los Fundadores",
+                Nombre = "Parque los Fundadores",
                 Descripcion1 = "Un parque histórico con áreas verdes y actividades recreativas.",
                 UrlImg1 = "https://ruta65.co/wp-content/uploads/2022/04/IMG_20220323_135357-scaled.jpg",
                 UrlImg2 = "https://www.oscarpabon.com/wp-content/uploads/2021/10/Parque-Fundadores-vive.jpg",
@@ -277,7 +275,7 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 402,
-                Titulo = "Parque las Malocas",
+                Nombre = "Parque las Malocas",
                 Descripcion1 = "Un parque con espacios para deportes y actividades al aire libre.",
                 UrlImg1 = "https://3.bp.blogspot.com/-hKIjOO0Db_I/WbagOfTGMQI/AAAAAAAAA1U/xc-I3Pr0VzAhNPAVsgY11fPK1AodVPfoQCLcBGAs/s1600/parque-malocas-vuelo-secreto.jpg",
                 UrlImg2 = "https://www.viajaporcolombia.com/empresa/sitio-turistico/954/malocas-4.jpg",
@@ -290,7 +288,7 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 403,
-                Titulo = "Parque Nacional Natural Sierra de La Macarena",
+                Nombre = "Parque Nacional Natural Sierra de La Macarena",
                 Descripcion1 = "Famoso por el Caño Cristales, un destino natural impresionante.",
                 UrlImg1 = "https://i.ytimg.com/vi/mrnGb8WuyWw/maxresdefault.jpg",
                 UrlImg2 = "https://cdn.colombia.com/sdi/2014/03/13/parque-nacional-natural-sierra-de-la-macarena-853790.jpg",
@@ -307,7 +305,7 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 500,
-                Titulo = "Monumentos de Villavicencio",
+                Nombre = "Monumentos de Villavicencio",
                 Descripcion1 = "Incluye varios monumentos históricos y culturales.",
                 UrlImg1 = "assets/images/monumentos-villavicencio.jpg",
                 Tipo = "Monumentos",
@@ -321,7 +319,7 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 600,
-                Titulo = "Museo Arqueológico Guayupe",
+                Nombre = "Museo Arqueológico Guayupe",
                 Descripcion1 = "Un museo que ofrece una visión de la historia y cultura local.",
                 UrlImg1 = "assets/images/museo-guayupe.jpg",
                 Tipo = "Museos",
@@ -335,7 +333,7 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 700,
-                Titulo = "Playa merecure",
+                Nombre = "Playa merecure",
                 Descripcion1 = "Playa Merecure es un lugar paradisíaco de arena blanca y aguas cristalinas, ideal para disfrutar del sol y relajarse en un entorno natural tranquilo.",
                 UrlImg1 = "",
                 UrlImg2 = "https://images.evisos.com.co/2009/06/24/merecure-parque-agroecologico-plan-pasadia_85fb04fd6_3.jpg",
@@ -352,7 +350,7 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 801,
-                Titulo = "Resguardo Indígena Maguare",
+                Nombre = "Resguardo Indígena Maguare",
                 Descripcion1 = "",
                 UrlImg1 = "https://plazacapital.co/images/contenidos/Maloca.png",
                 UrlImg2 = "https://plazacapital.co/media/k2/items/cache/a2e1c2d21129c22da8981a4c7bfdede0_XL.jpg?t=1730302375",
@@ -368,8 +366,8 @@ namespace TraverlServerTesting.Data
             //Otros
             new Unidad
             {
-                 Id = 102,
-                Titulo = "Mirador Turístico de San Martín",
+                Id = 102,
+                Nombre = "Mirador Turístico de San Martín",
                 Descripcion1 = "Ofrece vistas panorámicas impresionantes.",
                 UrlImg1 = "assets/images/mirador-san-martin.jpg",
                 Tipo = "Mirador",
@@ -378,8 +376,8 @@ namespace TraverlServerTesting.Data
             },
             new Unidad
             {
-                 Id = 104,
-                Titulo = "Mirador la Piedra del Amor",
+                Id = 104,
+                Nombre = "Mirador la Piedra del Amor",
                 Descripcion1 = "Un mirador popular con vistas espectaculares.",
                 UrlImg1 = "assets/images/mirador-piedra-amor.jpg",
                 Tipo = "Mirador",
@@ -389,7 +387,7 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 109,
-                Titulo = "Caño Cristales (Río de los Cinco Colores)",
+                Nombre = "Caño Cristales (Río de los Cinco Colores)",
                 Descripcion1 = "Un impresionante río conocido por sus aguas multicolores.",
                 UrlImg1 = "assets/images/cano-cristales.jpg",
                 Tipo = "Río",
@@ -399,7 +397,7 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 110,
-                Titulo = "Ruta Turística del Meta",
+                Nombre = "Ruta Turística del Meta",
                 Descripcion1 = "Una ruta que te lleva a varios destinos turísticos interesantes en la región.",
                 UrlImg1 = "assets/images/ruta-turistica-meta.jpg",
                 Tipo = "Ruta",
