@@ -305,9 +305,77 @@ namespace TraverlServerTesting.Data
             new Unidad
             {
                 Id = 500,
-                Nombre = "Monumentos de Villavicencio",
-                Descripcion1 = "Incluye varios monumentos históricos y culturales.",
-                UrlImg1 = "assets/images/monumentos-villavicencio.jpg",
+                Nombre = "Monumento Cristo Rey",
+                Descripcion1 = "Un monumento en una colina que ofrece vistas panorámicas de Villavicencio y simboliza protección y paz.",
+                UrlImg1 = "https://radionacional-v3.s3.amazonaws.com/s3fs-public/styles/portadas_relaciona_4_3/public/node/article/field_image/IMG%201%20Cabildo%20Verde%20Cristo%20Rey.jpeg?h=3dbd9eac&itok=ztqEPBEp",
+                UrlImg2 = "https://periodicodelmeta.com/wp-content/uploads/2020/09/Panoramica-Villavicencio-.jpg",
+                UrlImg3 = "https://www.villavonoticias.com/wp-content/uploads/2022/12/El-arte-y-la-cultura-se-toman.jpg",
+                Ubicacion = "Villavicencio, Meta",
+                Tipo = "Monumentos",
+                LinkFacebook="/lugar/",
+                Costo="Ver Mas"
+            },
+            new Unidad
+            {
+                Id = 501,
+                Nombre = "Monumento Los Fundadores",
+                Descripcion1 = "Rinde homenaje a los fundadores de Villavicencio, rodeado de áreas verdes.",
+                UrlImg1 = "https://elturismoencolombia.com/storage/2023/07/Monumento-a-los-Fundadores-Villavicencio-Meta-Colombia.jpg",
+                UrlImg2 = "https://ruta65.co/wp-content/uploads/2022/04/IMG_20220323_135357-scaled.jpg",
+                UrlImg3 = "https://mapio.net/images-p/42701429.jpg",
+                Ubicacion = "Villavicencio, Meta",
+                Tipo = "Monumentos",
+                LinkFacebook="/lugar/",
+                Costo="Ver Mas"
+            },
+            new Unidad
+            {
+                Id = 502,
+                Nombre = "Monumento al Folclor Llanero",
+                Descripcion1 = "Tributo al folclor llanero, ideal para celebraciones culturales.",
+                UrlImg1 = "https://i0.wp.com/elturismoencolombia.com/storage/2023/07/Monumento-al-folclor-llanero-Villavicencio-Meta-Colombia.jpg?fit=800%2C533&ssl=1",
+                UrlImg2 = "https://www.viveelmeta.com/wp-content/uploads/2020/04/Monumento-Folclor-Llanero-Villavicencio.jpg",
+                UrlImg3 = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhauoKU6DKafi5KSwfhN1jEpBSsMEwuv_SE9faGBdJQdttrIuruw8Pl8jEB7fb1MpF0w5R19dWAPxERbPgLtilnl3wtJD78NUwNqM64P0rE9uzIqs-xGV9sgwLcN4mvfxy3Wm6U6O0FGUH6/s640/monumento+al+folclor+.JPG",
+                Ubicacion = "65, Villavicencio, Meta",
+                Tipo = "Monumentos",
+                LinkFacebook="/lugar/",
+                Costo="Ver Mas"
+            },
+            new Unidad
+            {
+                Id = 503,
+                Nombre = "Monumento el Hacha",
+                Descripcion1 = "Simboliza la fuerza y el trabajo del pueblo llanero.",
+                UrlImg1 = "https://elturismoencolombia.com/storage/2023/07/Monumento-al-Hacha-Villavicencio-Meta-Colombia.jpg",
+                UrlImg2 = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggeKqxiXwGiIxtuhsd2NSYGRNEeMZoHdiTtpvKzt-n8of71TiHyTcsmmbIPLpBOZACz_Y2aMZZZsEh_9KgfRKXfOf14MyIVPoYxHjAISezIdd5mQjIY3Wa7xxo-iiWK9Bvz5cX8CzzIIEb/s1600/IMG_20200129_234150.jpg",
+                UrlImg3 = "https://pbs.twimg.com/media/EPjRqLIWsAAmhpT.jpg",
+                Ubicacion = "Calle 36 s/n, Villavicencio, Meta",
+                Tipo = "Monumentos",
+                LinkFacebook="/lugar/",
+                Costo="Ver Mas"
+            },
+            new Unidad
+            {
+                Id = 504,
+                Nombre = "Monumento al Joropo",
+                Descripcion1 = "Homenaje al joropo, el baile tradicional de los llanos.",
+                UrlImg1 = "https://www.viveelmeta.com/wp-content/uploads/2020/04/Monumento-al-Joropo-Villavicencio-2.jpg",
+                UrlImg2 = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixgK3HrvDsIzwzXqgk3pnfxzb8L8aSo-d-jLLjjEnGoF8Ts5q1o5P_FzzpLHs1wpTiwHAtjPzyqZfXEIWLc4Pw3MFs9X0C4xeYf_foEUbVpAJMF5TXhyphenhyphenDTF2ls5Tu7xr2fSt_Z66tJaz9o/s320/10+MONUMENTO+AL+JOROPO+.JPG",
+                UrlImg3 = "https://periodicodelmeta.com/wp-content/uploads/2021/05/WhatsApp-Image-2021-05-13-at-1.45.59-PM-3-298x300.jpeg",
+                Ubicacion = "40, Villavicencio, Meta",
+                Tipo = "Monumentos",
+                LinkFacebook="/lugar/",
+                Costo="Ver Mas"
+            },
+            new Unidad
+            {
+                Id = 505,
+                Nombre = "Monumento al Coleo",
+                Descripcion1 = "Representa la tradición del coleo en la cultura llanera.",
+                UrlImg1 = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLSRPGwn1pk0f7-SLF3KiRQAlGpWARdF0SaxywMh0MmyZBp7837lNZNC9Sb5pB9y4IsmooTwVRV0fykbuqaXkrcmHLCByHov_jwQC-Sui92sGyxQXRKhV0r0hNtCxDtT9mhf0mQX5Ne2A/s1600/100_1610.JPG",
+                UrlImg2 = "https://turismovillavicencio.com.co/wp-content/uploads/2021/12/MAC01.jpg",
+                UrlImg3 = "https://www.viveelmeta.com/wp-content/uploads/2020/04/Monumento-al-coleo-Villavicencio-2-697x697.jpg",
+                Ubicacion = "Villavicencio, Meta",
                 Tipo = "Monumentos",
                 LinkFacebook="/lugar/",
                 Costo="Ver Mas"
@@ -324,6 +392,7 @@ namespace TraverlServerTesting.Data
                 UrlImg1 = "https://colombiavisible.com/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-14-at-1.20.05-PM-1024x576.jpeg",
                 UrlImg2 = "https://radionacional-v3.s3.amazonaws.com/s3fs-public/styles/amp_1200x900_4_3/public/node/article/field_image/fotograf%C3%ADa%203.jpg?itok=oqnUF8Uas",
                 UrlImg3 = "https://extra.com.co/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-21-at-4.00.58-PM.jpeg",
+                Ubicacion = "Villavicencio, Meta",
                 Tipo = "Museos",
                 LinkFacebook="/lugar/",
                 Costo="Ver Mas"
@@ -337,7 +406,6 @@ namespace TraverlServerTesting.Data
                 Id = 700,
                 Nombre = "Playa merecure",
                 Descripcion1 = "Playa Merecure es un lugar paradisíaco de arena blanca y aguas cristalinas, ideal para disfrutar del sol y relajarse en un entorno natural tranquilo.",
-                UrlImg1 = "",
                 UrlImg1 = "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/01/f5/15/merecure.jpg?w=1200&h=-1&s=1",
                 UrlImg2 = "https://images.evisos.com.co/2009/06/24/merecure-parque-agroecologico-plan-pasadia_85fb04fd6_3.jpg",
                 UrlImg3 = "https://media-cdn.tripadvisor.com/media/photo-s/07/27/ba/18/playa.jpg",
