@@ -321,7 +321,9 @@ namespace TraverlServerTesting.Data
                 Id = 600,
                 Nombre = "Museo Arqueológico Guayupe",
                 Descripcion1 = "Un museo que ofrece una visión de la historia y cultura local.",
-                UrlImg1 = "assets/images/museo-guayupe.jpg",
+                UrlImg1 = "https://colombiavisible.com/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-14-at-1.20.05-PM-1024x576.jpeg",
+                UrlImg2 = "https://radionacional-v3.s3.amazonaws.com/s3fs-public/styles/amp_1200x900_4_3/public/node/article/field_image/fotograf%C3%ADa%203.jpg?itok=oqnUF8Uas",
+                UrlImg3 = "https://extra.com.co/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-21-at-4.00.58-PM.jpeg",
                 Tipo = "Museos",
                 LinkFacebook="/lugar/",
                 Costo="Ver Mas"

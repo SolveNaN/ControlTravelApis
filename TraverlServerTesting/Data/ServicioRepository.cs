@@ -154,27 +154,51 @@ namespace TraverlServerTesting.Data
             // Museo 600
             new Servicio {
                 Id = 601,
+                Id = 600,
+                UnidadId=600,
                 Nombre="Exposiciones permanentes",
                 Descripcion1 ="Relatan la historia y cultura de la etnia indígena Guayupe",
                 UnidadId=600,
+                Valor = "Ver Mas",
+                UrlImg1 = "https://musa.com.co/CMS/modules/picture_gallery/files/2016-07-07_06_25_44CQ-835-DETALLE.jpg",
+                UrlImg2 = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpECGXRuuiJeZDqxIVgzV7O6hrMx_iTf_J1TczExofPai4qs-aIkgf9imXF98DodC0b-eBy7Lp1NOFiJIVXyqr7Jx_Q6Y2ZYk_8rQ1MvPbLTfhM4Qb_9Vb7uaussuB5o3VnIjmGsVAHjM/s1600/FB_IMG_1554756654800.jpg",
+                UrlImg3 = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLGhQzqBPEXvAMCUJ9yCahUEL6kF35VW_n-gwU1m4hmgj_fc8BIS1Tk5mOrSR7YVMDBB3iuNhsj8GcrYSMqWQUlQ50nYhNL3-FF82PNyEX7mTrNU8GK_yR8py8oTdKkjl-2NFvlS2I3vA/s1600/IMG_0861.JPG"
             },
             new Servicio {
                 Id = 602,
+                Id = 601,
+                UnidadId=600,
                 Nombre="Recorridos guiados",
                 Descripcion1 ="Ofrecen una visión detallada de las piezas y su contexto histórico",
                 UnidadId=600,
+                Valor = "Ver Mas",
+                UrlImg1 = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqejwDq4QYjIDffb6_rCyKO1-9F57U2IHkLuz3XRLUjtna1r69W_t1FJeCBduLqO9UMGnd2A5DoWqnZWh9SeiQgA840xifX4CsSoTagv3cXyiHCYc0wQmZlRrsLHr84yIbEOF54-rAhyg/s1600/IMG_0822.JPG",
+                UrlImg2 = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLGhQzqBPEXvAMCUJ9yCahUEL6kF35VW_n-gwU1m4hmgj_fc8BIS1Tk5mOrSR7YVMDBB3iuNhsj8GcrYSMqWQUlQ50nYhNL3-FF82PNyEX7mTrNU8GK_yR8py8oTdKkjl-2NFvlS2I3vA/s1600/IMG_0861.JPG",
+                UrlImg3 = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQbKZPpJHzWqrLQbUXi3uRG57EKzGM_lFxb2kh6GWerUz7LCwUTRxAXjT_ms30DBraLWrU9myEXxxlUmlgX9JSsed20suqnlRjMVKNRXp7o38nfuD9zJhOI4pXKT8ovcA-I2G9zhq1G9k/s1600/IMG_0833.JPG"
             },
             new Servicio {
                 Id = 603,
                 Nombre="Sala de audiovisuales",
                 Descripcion1 =" Presenta videos y presentaciones interactivas sobre la cultura Guayupe",
+                Id = 602,
                 UnidadId=600,
+                Nombre="Sala de audiovisuales",
+                Valor = "Ver Mas",
+                Descripcion1 ="Presenta videos y presentaciones interactivas sobre la cultura Guayupe",
+                UrlImg1 = "https://i.ytimg.com/vi/8nDe0QsCBdo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCknL1OQJpya3HZjG1MgjkWlLdiRg",
+                UrlImg2 = "https://www.viveelmeta.com/wp-content/uploads/2018/09/Campo-Revelado-Egar-1.jpg",
+                UrlImg3 = "https://scontent.fbga1-3.fna.fbcdn.net/v/t39.30808-6/459483689_949067777263720_8903809313511113739_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_2vco_GeuhIQ7kNvgEtFQH3&_nc_zt=23&_nc_ht=scontent.fbga1-3.fna&_nc_gid=A3fTyDwgn_6bJ1e2C7JCt4A&oh=00_AYCNYafCF_CJYP9dQsrHxE3UOhISSZANVuYr_PoDnXCcUg&oe=672C0548"
             },
             new Servicio {
                 Id = 604,
+                Id = 603,
+                UnidadId=600,
                 Nombre="Talleres educativos",
                 Descripcion1 =" Actividades para niños y adultos que fomentan el aprendizaje sobre la historia local",
                 UnidadId=600,
+                UrlImg1 = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXjAmgkhn-uhF7CP4o9s4PxsXYPKq0qU034CnIGul-vXf5K44qghxLAFDqgefYXQS13zipMLigcZ1EljDW8GeUMP8GFsV2mnSWqbiui5JfkoYFgxjOl7AXy5nkZeYw9rJV5nJeP7hLm9H4/s1600/fotos+113.JPG",
+                UrlImg2 = "https://i.promecal.es/IMG/2014/28543D99-DDF8-3020-16307BDF28408E90.JPG",
+                UrlImg3 = "https://scontent.fbga1-3.fna.fbcdn.net/v/t39.30808-6/449831138_1447367525923485_4883570110595610841_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rdmdefXntbEQ7kNvgFEhvJS&_nc_zt=23&_nc_ht=scontent.fbga1-3.fna&_nc_gid=ANxjjblAOjgWrQ_yLYpz47q&oh=00_AYAZQ9j8ru2RHHNCazvkz9xUL6_bmCDCQ61JEJonalnmjQ&oe=672C0011"
             },
 
 
