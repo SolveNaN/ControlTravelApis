@@ -73,6 +73,26 @@ namespace TraverlServerTesting.Data
 
 
 
+            // Museos (600 - 699)
+            new Categoria
+            {
+                Id = 600,
+                UnidadId = 600,
+                Nombre = "Exposiciones y Recorridos",
+                Tipo = "Cultura y Historia",
+                Descripcion1 = "Exploración de las exposiciones permanentes y recorridos guiados para entender la historia Guayupe.",
+            },
+            new Categoria
+            {
+                Id = 601,
+                UnidadId = 600,
+                Nombre = "Actividades Educativas",
+                Tipo = "Educación",
+                Descripcion1 = "Talleres y presentaciones audiovisuales que fomentan el aprendizaje interactivo de la cultura Guayupe.",
+            },
+
+
+
             // Playas (700 - 799)
             new Categoria
             {
