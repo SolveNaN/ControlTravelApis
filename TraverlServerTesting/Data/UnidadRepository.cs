@@ -495,6 +495,11 @@ namespace TraverlServerTesting.Data
             return unidades.FirstOrDefault(u => u.Id == id);
         }
 
+        public List<Unidad> GetUnidadesByTipo(String tipoUnidad)
+        {
+            return unidades.Where(s => s.Tipo == tipoUnidad).ToList();
+        }
+
         // Eliminar
         public bool DeleteUnidad(int id)
         {

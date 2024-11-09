@@ -20,6 +20,20 @@ namespace TraverlServerTesting.Controllers
             return Ok(unidadRepository.GetAllUnidades());
         }
 
+        // Obtener las unidades de un Tipo
+        [HttpGet]
+        [Route("ListadoPorTipo/{tipoUnidad}")]
+        public ActionResult<List<Unidad>> GetUnidadesByTipo(String tipoUnidad)
+        {
+            var unidades = unidadRepository.GetUnidadesByTipo(tipoUnidad);
+            if (unidades == null || !unidades.Any())
+            {
+                return NotFound($"No se encontraron unidades para el tipo {tipoUnidad}.");
+            }
+
+            return Ok(unidades);
+        }
+
 
         // Consultar una unidad
         [HttpGet]
